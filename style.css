@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('boostrap/css/bootstrap.css');
+@import url('fonts/stylesheet.css');
+#topo{
+    background-color: #277ba5;
+    padding: 64px;
+}
+
+h2{
+    margin-top: 16px;
+    text-align: center;
+    color: #277ba5;
+    font-family: 'Algerian';
+    font-size: 27px;
+}
+
+.numero{
+    background-color: #277ba5;
+    color: #fff;
+    border-radius: 100%;
+    padding: 7px 12px;
+    margin-right: 8px;
+}
+
+.form-check{
+    margin-left: 41px;
+}
+
+.footer{
+    background-color: #545454;
+    padding: 20px;
+    margin-top: 10px;
+}
+.btnPad{
+    background-color: #277ba5;
+    padding: 11px;
+    margin-top: 11px;
+    display: inline-block;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+    border: 0;
+}
+
+.btnPad:hover{
+    background-color: #545454;
+    color: #fff;
+    text-decoration: none;
+}
+
+p{
+	font-family: 'Myriad Pro';
+	font-size: 17px;
+	text-align: center;
+	color: #277ba5;
+}
+
+#form p{
+    text-align: left;
+    color: #414141;
+    font-size: 17px;
+}
+
+@media (min-width: 320px) {
+#topo{
+    padding: 28px;
+}	
+	
+#form p{
+    font-size: 17px;
+}
+	}
